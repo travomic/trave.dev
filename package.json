@@ -1,6 +1,19 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "trave.dev",
+  "description": "Travis Barney's personal web development blog and such",
+  "homepage": "https://trave.dev",
+  "author": {
+    "email": "trave@trave.dev",
+    "name": "Travis Barney",
+    "url": "https://trave.dev/trave"
+  },
+  "bugs": {
+    "url": "https://github.com/travomic/trave.dev/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/travomic/trave.dev.git"
+  },
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
