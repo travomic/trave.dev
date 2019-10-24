@@ -1,14 +1,13 @@
 <style>
   h1,
-  figure,
-  p {
+  figure {
     text-align: center;
     margin: 0 auto;
   }
 
   h1 {
     font-size: 2.8em;
-    font-weight: 700;
+    font-weight: 200;
     margin: 0 0 0.5em 0;
   }
 
@@ -18,12 +17,8 @@
 
   img {
     width: 100%;
-    max-width: 400px;
+    max-width: 256px;
     margin: 0 0 1em 0;
-  }
-
-  p {
-    margin: 1em auto;
   }
 
   @media (min-width: 480px) {
@@ -34,12 +29,12 @@
 </style>
 
 <svelte:head>
-  <title>Sapper project template</title>
+  <title>Trave's Dev Zone</title>
 </svelte:head>
 
 <h1>trave.dev</h1>
 
 <figure>
   <img alt="Trave Nasty" src="logo-512.png" />
-  <figcaption>meh.</figcaption>
+  <figcaption>Est. 1979</figcaption>
 </figure>
