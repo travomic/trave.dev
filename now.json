@@ -1,4 +1,9 @@
 {
   "name": "trave.dev",
-  "alias": "trave.dev"
+  "alias": "trave.dev",
+  "build": {
+    "env": {
+      "SAPPER_APP_GA_TRACKING_ID": "@ga-tracking-id"
+    }
+  }
 }
