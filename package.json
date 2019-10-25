@@ -16,7 +16,7 @@
   },
   "version": "0.0.1",
   "scripts": {
-    "build": "SAPPER_TIMESTAMP=$(date +%s%3N) sapper export",
+    "build": "SAPPER_APP_CACHE_VERSION=$(date +%s%3N) sapper export",
     "now-build": "npm run build",
     "dev": "sapper dev",
     "build:universal": "sapper build --legacy",
