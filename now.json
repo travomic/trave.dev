@@ -3,8 +3,7 @@
   "alias": "trave.dev",
   "build": {
     "env": {
-      "SAPPER_APP_GA_TRACKING_ID": "@ga-tracking-id",
-      "SAPPER_APP_CACHE_VERSION": "1"
+      "SAPPER_APP_GA_TRACKING_ID": "@ga-tracking-id"
     }
   }
 }

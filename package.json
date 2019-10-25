@@ -16,10 +16,9 @@
   },
   "version": "0.0.1",
   "scripts": {
-    "build": "SAPPER_APP_CACHE_VERSION=$(date +%s%3N) sapper export",
-    "now-build": "npm run build",
+    "now-build": "npm run export",
     "dev": "sapper dev",
-    "build:universal": "sapper build --legacy",
+    "build": "sapper build --legacy",
     "export": "sapper export --legacy",
     "start": "node __sapper__/build",
     "cy:run": "cypress run",
